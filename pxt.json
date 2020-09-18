@@ -1,16 +1,26 @@
 {
     "name": "boss run",
-    "dependencies": {
-        "device": "*"
-    },
     "description": "",
+    "dependencies": {
+        "device": "*",
+        "darts": "*"
+    },
     "files": [
         "main.blocks",
         "main.ts",
-        "README.md"
+        "README.md",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
     ],
-    "preferredEditor": "blocksprj",
     "testFiles": [
         "test.ts"
-    ]
+    ],
+    "targetVersions": {
+        "target": "1.2.6",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
 }
